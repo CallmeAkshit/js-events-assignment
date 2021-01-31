@@ -1,4 +1,5 @@
 
+
 window.addEventListener('load', () => {
     const inputButton=document.querySelector('#text-input-1');
     const box=document.querySelector('#color');
