@@ -1,9 +1,10 @@
-window.addEventListener('load', () => {
 
-    const input=document.querySelector('text-input-1');
-    const box=document.querySelector('.color');
 
-    input.addEventListener('input', event => {
-        box.style.backgroundColor = input.value;
+window.addEventListener('defer', () => {
+    const input=document.querySelector('#some-input');
+    const box=document.querySelector('#color');
+
+        input.addEventListener('input', event => {
+            box.style.backgroundColor = input.value;      
     });
 })
